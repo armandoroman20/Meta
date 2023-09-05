@@ -23,3 +23,31 @@ switch (place) {
     default:
         console.log("no medal...");
 }
+
+var day = "Saturday";
+
+switch(day) {
+        case 'Monday':
+    console.log("Start of the week");
+    break;
+        case 'Tuesday':
+    console.log("Go to class");
+    break;
+        case 'Wednesday':
+    console.log("Hump day!");
+    break;
+        case 'Thursday':
+    console.log("Baby Friday");
+    break;
+        case 'Friday':
+    console.log("Friday is here");
+    break;
+        case 'Saturday':
+    console.log("Let's party!");
+    break;
+        case 'Sunday':
+    console.log("Prepare for the work week");
+    break;
+    default: 
+    console.log("There is no such day");
+}
