@@ -2,6 +2,8 @@
 
 var place = "second";
 
+// we insert the variable inside 
+// the parenthesis to check
 switch (place) {
     /* we use case to set the 'condition' 
     for the first test, and so on */
