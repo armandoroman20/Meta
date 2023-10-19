@@ -100,9 +100,10 @@ function intern() {
     console.log(intern.xp);
     console.log(intern.hourlyWage);
     intern.goToWork();
-    return intern;
+    // return intern;
 }
 
+intern();
 
 
 // Task 4: Code a manager object
@@ -132,6 +133,8 @@ function manager() {
 
     manager.doSomethingFun();
 
-    return manager;
+    // return manager;
 }
+
+manager();
 
