@@ -70,7 +70,7 @@ class Worker extends Person{
 
 var worker1 = new Worker();
 
-console.log("worker1 name:", worker1.name);
+ console.log("worker1 name:", worker1.name);
 console.log("worker1 age:", worker1.age);
 console.log("worker1 energy:", worker1.energy);
 console.log("worker1 xp:", worker1.xp);
