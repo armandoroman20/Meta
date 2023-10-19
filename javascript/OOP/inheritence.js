@@ -37,4 +37,6 @@ console.log("eagle2 has wings ", eagle2.hasWings);
 
 var penguin1 = Object.create(bird);
 penguin1.canFly = false;
+console.log("penguin1: ", penguin1);
+console.log("penguin1 has feathers", penguin1.hasFeathers);
 console.log("penguin1 can fly", penguin1.canFly);
