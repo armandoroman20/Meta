@@ -21,14 +21,13 @@ var dairy = ['cheese', 'sour cream', 'milk', 'yogurt', 'ice cream', 'milkshake']
 
 function logDairy() {
 
-for (prop of Object.values(dairy)) {
-    console.log(prop);
-}
+    for (prop of Object.values(dairy)) {
+        console.log(prop);
+    }
     
-for (const prop of dairy) {
-  console.log(prop);
-}
-
+// for (const prop of dairy) {
+//   console.log(prop);
+// }
 
 }
 
