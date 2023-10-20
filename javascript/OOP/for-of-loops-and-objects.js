@@ -1,21 +1,13 @@
-var clothingItem = {
-    price: 50,
-    color: 'beige',
-    material: 'cotton',
-    season: 'autumn'
+const car = {
+    engine: true, 
+    steering: true, 
+    speed: "slow"
 }
 
-// for( key of Object.keys(clothingItem) ) {
-//     console.log(keys, ":", clothingItem[key])
-// }
-let keys;
 
-for( key of Object.values(clothingItem) ) {
-    console.log(keys, ":", clothingItem[key])
-}
+const sportsCar = Object.create(car);
+sportsCar.speed = "fast";
+console.log("The sportsCar object: ", sportsCar);
 
-for( key of Object.entries(clothingItem) ) {
-    console.log(keys, ":", clothingItem[key])
-}
 
 
