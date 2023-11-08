@@ -70,7 +70,7 @@ class Worker extends Person{
 
 var worker1 = new Worker();
 
- console.log("worker1 name:", worker1.name);
+console.log("worker1 name:", worker1.name);
 console.log("worker1 age:", worker1.age);
 console.log("worker1 energy:", worker1.energy);
 console.log("worker1 xp:", worker1.xp);
@@ -100,11 +100,10 @@ function intern() {
     console.log(intern.xp);
     console.log(intern.hourlyWage);
     intern.goToWork();
-    // return intern;
+    return intern;
 }
 
-intern();
-
+// intern();
 
 // Task 4: Code a manager object
 // Inside the manager function instantiate the Worker class
@@ -133,8 +132,8 @@ function manager() {
 
     manager.doSomethingFun();
 
-    // return manager;
+    return manager;
 }
 
-manager();
+// manager();
 

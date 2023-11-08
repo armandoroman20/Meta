@@ -11,7 +11,7 @@
 // methods as you want, but do not include the 
 // function keyword
 
-class Car {
+ class Car {
 
     constructor(color, speed) {
         this.color = color;
