@@ -1,6 +1,6 @@
 // if, else if, else
 
-var place = 'second';
+var place = 'first';
 
 if (place == 'first') {
     console.log("gold")
@@ -24,3 +24,4 @@ if (age >= 65 ) {
 } else {
     console.log("The value of the age variable is not numerical")
 }
+

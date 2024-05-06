@@ -1,15 +1,15 @@
 // Looping the counter to 100
 
-// 1st initialize i (set the start count  value),
+// 1st initialize i (set the start count value),
 // set the condition for i,
 // set the increment 
-// can use ++ for 1 or += for any value
+// can use ++ for 1 or += for any other value E.g += 5 to count by 5
 
 for (var i = 1; i < 101; i++) {
     console.log(i);
 }
 
-// while loop 
+// WHILE LOOP
 
 // we set the value outside the loop
 var i = 1;

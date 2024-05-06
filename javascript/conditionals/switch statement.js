@@ -9,7 +9,7 @@ switch (place) {
     for the first test, and so on */
     case 'first':
         // once tested if the condition is met 
-        // we wil console.log
+        // we will console.log
         console.log("gold");
         // we use break to stop or continue
         // if the condition wasn't meet
@@ -51,3 +51,6 @@ switch(day) {
     default: 
     console.log("There is no such day");
 }
+
+
+
