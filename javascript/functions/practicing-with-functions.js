@@ -55,4 +55,4 @@ function letterFinder(word, match) {
 
 };
 
-letterFinder("mossimo", "i");
+letterFinder("test", "t");
