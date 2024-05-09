@@ -25,6 +25,7 @@ storeManager.greeting = "Let's make some money";
 // Here we will create the Assistant manager
 // here a Property Key: movement 
 // Property value: 3
+// these are known as key value pairs
 var assistantManager = {
     movement: 3, 
     socialSkills: 20,
